@@ -1,0 +1,40 @@
+database:
+  # Define o tipo de banco de dados usado.
+  #
+  # - Opções disponíveis:
+  #  |=> MySQL
+  #  |=> SQLite
+  type: SQLite
+
+  remote:
+    # Define as informações do MySQL.
+    hostname: "localhost:3306"
+    database: "hg"
+    username: "root"
+    password: ""
+Configuration:
+  waiting_seconds: 20
+  invincible_seconds: 120
+  minifeast_spawn_minutes: 1
+  feast_spawn_minutes: 6
+  finished_seconds: 10
+  minutes_to_coliseu: 10
+  min_players: 2
+  max_players: 100
+  borderlimit: 1500
+Lobby:
+  lobbylimit: 100
+  lobbys:
+  - world,-4.25276470156642,67.0,-40.04145377430683,-272.1209,-0.9002688
+Worlds:
+- hg1
+- hg2
+- hg3
+minifeast_items:
+- DIAMOND_SWORD,1,50,SHARPNESS:3;FIRE_ASPECT:2
+- BOW,1,30,POWER:4;INFINITY:1
+- APPLE,5,100
+feast_items:
+- DIAMOND_SWORD,1,50,SHARPNESS:3;FIRE_ASPECT:2
+- BOW,1,30,POWER:4;INFINITY:1
+- APPLE,5,100

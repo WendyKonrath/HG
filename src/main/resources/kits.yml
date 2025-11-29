@@ -1,0 +1,24 @@
+Kitselector:
+  InventoryName: "Selecionar Kit"
+
+Kits:
+  Hermit:
+    Free: true
+    Activated: true
+    InventoryKitInfo:
+      Name: "&6Hermit"
+      Id:
+      Lore:
+        - ""
+        - ""
+      KitSelected: "Kit {name} Selecionado!"
+      KitNotSelected: "Clique para selecionar o Kit!"
+      PlayerNotKitValue:
+        - "Preço: {value}"
+        - ""
+        - "Você não possui dinheiro o suficiente!"
+      KitNotPurchased:
+        - "Preço: {value}"
+        - ""
+        - "Clique para comprar!"
+      Value: 3000

@@ -1,0 +1,7 @@
+name: HG
+version: '1.0-SNAPSHOT'
+main: org.hg.Main
+
+commands:
+  hg:
+  coins:
